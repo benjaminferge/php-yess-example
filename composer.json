@@ -1,0 +1,24 @@
+{
+    "name": "benjaminferge/yess-php",
+    "description": "Yess php client",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Benjámin J. Ferge",
+            "email": "benjamin.ferge@protonmail.com"
+        }
+    ],
+    "require": {
+        "protobuf-php/protobuf": "^0.1.3",
+        "protobuf-php/protobuf-plugin": "^0.1.3",
+        "google/protobuf": "^3.11",
+        "grpc/grpc": "^1.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yess\\": "src/",
+            "": "protos/lib"
+        }
+    }
+}
